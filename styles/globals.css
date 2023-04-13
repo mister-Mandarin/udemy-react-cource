@@ -35,8 +35,10 @@ body {
 
     height: 100%;
 
-    font-family: 'Noto Sans', sans-serif;
+    color: var(--black);
+    background: #F5F6F8;
 
+    font-family: 'Noto Sans', sans-serif;
     font-size: 14px;
     line-height: 1;
 
@@ -99,3 +101,15 @@ h6 {
 }
 
 /* -------------------- */
+
+:root {
+    --black: #3B434E;
+    --gray: #EBEBEB;
+    --white: white;
+    --red: #DE0000;
+    --primary: #5131D0;
+    --primary-hover: #7D6BBA;
+    --green: #1DC37E;
+    --green-light: #C8F8E4;
+    --font-family: font-family 'Noto Sans', sans-serif;
+}
