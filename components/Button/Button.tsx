@@ -1,8 +1,7 @@
-import {ButtonProps} from "@/components/Button/Button.props";
-import styles from "./Button.module.css";
-import cn from "classnames";
+import {ButtonProps} from '@/components/Button/Button.props';
+import styles from './Button.module.css';
+import cn from 'classnames';
 import ArrowIcon from './Arrow.svg';
-import {types} from "util";
 
 // ...props - это спред. Он повзоляет "вытащить" все оставшиеся возможные параметры кнопки.
 // Для этого их экстендили в пропсах.

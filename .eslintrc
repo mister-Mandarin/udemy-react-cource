@@ -5,6 +5,10 @@
     "@typescript-eslint"
   ],
   "rules": {
+    "quotes": [
+      "error",
+      "single"
+    ],
     "semi": "off",
     "@typescript-eslint/semi": [
       "warn"

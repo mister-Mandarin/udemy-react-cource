@@ -9,19 +9,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e63a6f14-d163-4faf-9632-51879e78ec45" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/components/Button/Arrow.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/next-env-custom.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/svg.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Ptag/Ptag.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Ptag/Ptag.props.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Ptag/Ptag.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Tag/Tag.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Tag/Tag.props.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Tag/Tag.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintrc" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Button/Button.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/Button/Button.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/Button/Button.props.ts" beforeDir="false" afterPath="$PROJECT_DIR$/components/Button/Button.props.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/Button/Button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Button/Button.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/_app.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_app.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Htag/Htag.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/Htag/Htag.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Htag/Htag.props.ts" beforeDir="false" afterPath="$PROJECT_DIR$/components/Htag/Htag.props.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Htag/Htag.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Htag/Htag.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/components/index.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/globals.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,30 +60,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "37323744",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "D:/web/superapp",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.standard": "true",
-    "node.js.detected.package.stylelint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.standard": "",
-    "node.js.selected.package.stylelint": "D:\\web\\superapp\\node_modules\\stylelint",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "settings.javascript.linters.eslint",
-    "ts.external.directory.path": "D:\\web\\superapp\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;33ad18ba&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/web/superapp/components&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.stylelint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.stylelint&quot;: &quot;D:\\web\\superapp\\node_modules\\stylelint&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.javascript.linters.eslint&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;D:\\web\\superapp\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="ReactDesignerToolWindowState">
     <option name="myId2Visible">
       <map>
@@ -91,6 +94,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\web\superapp\components" />
       <recent name="D:\web\superapp" />
       <recent name="D:\web\superapp\components\Button" />
     </key>
@@ -132,7 +136,8 @@
       <workItem from="1681364880407" duration="10609000" />
       <workItem from="1683709364313" duration="38000" />
       <workItem from="1683709419457" duration="1600000" />
-      <workItem from="1683711542089" duration="7528000" />
+      <workItem from="1683711542089" duration="14013000" />
+      <workItem from="1683783137362" duration="2303000" />
     </task>
     <servers />
   </component>
