@@ -1,5 +1,5 @@
 import cn from 'classnames';
-import styles from '@/components/Ptag/Sidebar.module.css';
+import styles from '@/layout/Header/Header.module.css';
 import {HeaderProps} from '@/layout/Header/Header.props';
 
 export const Header = ({...prors}: HeaderProps): JSX.Element => {
