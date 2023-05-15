@@ -1,7 +1,9 @@
-import React from 'react';
-import {Button, Htag, Ptag, Tag} from '@/components';
+import React, {useState} from 'react';
+import {Button, Htag, Ptag, Tag, Star} from '@/components';
 
 export default function Home(): JSX.Element {
+
+    const [rating, setRating] = useState(4);
     return (
         <div>
             <Htag tag='h1'>Текст внутри</Htag>
@@ -22,6 +24,8 @@ export default function Home(): JSX.Element {
             <Tag size={'small'} color={'ghost'}>Дизайн</Tag>
             <Tag size={'big'} color={'gray'}>10</Tag>
             <Tag size={'small'} color={'green'}>-10 000 р</Tag>
+
+            <Star rating={rating} isEdit setRating={setRating}/>
         </div>
     );
 }

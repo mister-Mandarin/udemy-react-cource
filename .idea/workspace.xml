@@ -9,22 +9,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e63a6f14-d163-4faf-9632-51879e78ec45" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/components/Ptag/Ptag.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Ptag/Ptag.props.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Ptag/Ptag.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Tag/Tag.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Tag/Tag.props.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Tag/Tag.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.eslintrc" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Star/Star.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Star/Star.props.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Star/Star.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Star/Star.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Button/Button.props.ts" beforeDir="false" afterPath="$PROJECT_DIR$/components/Button/Button.props.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Button/Button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Button/Button.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Htag/Htag.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/Htag/Htag.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Htag/Htag.props.ts" beforeDir="false" afterPath="$PROJECT_DIR$/components/Htag/Htag.props.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Htag/Htag.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Htag/Htag.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Ptag/Ptag.props.ts" beforeDir="false" afterPath="$PROJECT_DIR$/components/Ptag/Ptag.props.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/components/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/next-env-custom.d.ts" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/svg.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/svg.d.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,8 +61,9 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;33ad18ba&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;ea0aa26b&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;js.last.introduce.type&quot;: &quot;CONST&quot;,
     &quot;last_opened_file_path&quot;: &quot;D:/web/superapp/components&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
@@ -97,6 +92,9 @@
       <recent name="D:\web\superapp\components" />
       <recent name="D:\web\superapp" />
       <recent name="D:\web\superapp\components\Button" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\web\superapp\components\Star" />
     </key>
   </component>
   <component name="RunManager">
@@ -137,7 +135,11 @@
       <workItem from="1683709364313" duration="38000" />
       <workItem from="1683709419457" duration="1600000" />
       <workItem from="1683711542089" duration="14013000" />
-      <workItem from="1683783137362" duration="2303000" />
+      <workItem from="1683783137362" duration="3464000" />
+      <workItem from="1683800485692" duration="1276000" />
+      <workItem from="1683890173147" duration="7379000" />
+      <workItem from="1684143336789" duration="1553000" />
+      <workItem from="1684144926036" duration="3580000" />
     </task>
     <servers />
   </component>
