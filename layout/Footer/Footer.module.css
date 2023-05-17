@@ -1,0 +1,26 @@
+.wrapper {
+    display: grid;
+
+    padding: 25px 32px;
+
+    color: var(--white);
+
+    background-color: var(--primary);
+
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    grid-template-columns: 1fr auto auto;
+    gap: 10px 40px;
+
+}
+
+.href {
+    color: var(--white);
+}
+
+@media (max-width: 765px) {
+    .wrapper {
+        grid-template-columns: 1fr;
+    }
+}

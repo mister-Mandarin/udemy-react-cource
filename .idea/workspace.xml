@@ -10,9 +10,11 @@
   <component name="ChangeListManager">
     <list default="true" id="e63a6f14-d163-4faf-9632-51879e78ec45" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/layout/Header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/layout/Header/Header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/Footer/Footer.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/layout/Footer/Footer.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/Footer/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/layout/Footer/Footer.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/layout/Layout.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/layout/Layout.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/layout/Layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/layout/Layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,31 +50,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "08c97f9b",
-    "ignore.virus.scanning.warn.message": "true",
-    "js.last.introduce.type": "CONST",
-    "last_opened_file_path": "D:/web/superapp/layout",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.standard": "true",
-    "node.js.detected.package.stylelint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.standard": "",
-    "node.js.selected.package.stylelint": "D:\\web\\superapp\\node_modules\\stylelint",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "settings.javascript.linters.eslint",
-    "ts.external.directory.path": "D:\\web\\superapp\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;e3423b52&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;js.last.introduce.type&quot;: &quot;CONST&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/web/superapp/layout&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.stylelint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.stylelint&quot;: &quot;D:\\web\\superapp\\node_modules\\stylelint&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.javascript.linters.eslint&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;D:\\web\\superapp\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="ReactDesignerToolWindowState">
     <option name="myId2Visible">
       <map>
@@ -136,6 +138,8 @@
       <workItem from="1683890173147" duration="7379000" />
       <workItem from="1684143336789" duration="1553000" />
       <workItem from="1684144926036" duration="10075000" />
+      <workItem from="1684230591618" duration="1218000" />
+      <workItem from="1684306797064" duration="4935000" />
     </task>
     <servers />
   </component>
