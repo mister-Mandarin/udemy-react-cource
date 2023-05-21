@@ -32,7 +32,7 @@ function Home({menu}: HomeProps): JSX.Element {
             <Star rating={rating} isEdit setRating={setRating}/>
 
             <ul>
-                {menu.map((m) => (<li>m._id.secondCategory</li>))}
+                {menu.map((m) => (<li key={m._id.secondCategory}>{m._id.secondCategory}</li>))}
             </ul>
         </>
     );
@@ -43,7 +43,9 @@ export default withLayout(Home);
 // запрос на получение пунктов меню
 export const getStaticProps: GetStaticProps<HomeProps> = async () => {
     const firstCategory = 0;
-    const {data: menu} = await axios.post<MenuItem[]>(process.env.NEXT_PUBLIC_DOMAIN + '/api/top-page/find');
+    const {data: menu} = await axios.post<MenuItem[]>(process.env.NEXT_PUBLIC_DOMAIN + '/api/top-page/find', {
+        firstCategory
+    });
     return {
         props: {
             menu,
