@@ -1,8 +1,11 @@
 import React, {useState} from 'react';
 import {Button, Htag, Ptag, Tag, Star} from '@/components';
 import {withLayout} from '@/layout/Layout';
+import axios from 'axios';
+import {MenuItem} from '@/interface/menu.interface';
+import {GetStaticProps} from 'next';
 
-function Home(): JSX.Element {
+function Home({menu}: HomeProps): JSX.Element {
 
     const [rating, setRating] = useState(4);
     return (
@@ -27,8 +30,32 @@ function Home(): JSX.Element {
             <Tag size={'small'} color={'green'}>-10 000 р</Tag>
 
             <Star rating={rating} isEdit setRating={setRating}/>
+
+            <ul>
+                {menu.map((m) => (<li>m._id.secondCategory</li>))}
+            </ul>
         </>
     );
 }
 
 export default withLayout(Home);
+
+// запрос на получение пунктов меню
+export const getStaticProps: GetStaticProps<HomeProps> = async () => {
+    const firstCategory = 0;
+    const {data: menu} = await axios.post<MenuItem[]>(process.env.NEXT_PUBLIC_DOMAIN + '/api/top-page/find');
+    return {
+        props: {
+            menu,
+            firstCategory
+        }
+    };
+};
+
+// В этой папке должны находиться только компоненты страниц
+// поэтому типизируем возвращаемые данные с POST запроса тут, а не создаем отдельный файл
+
+interface HomeProps extends Record<string, unknown> {
+    menu: MenuItem[],
+    firstCategory: number
+}
