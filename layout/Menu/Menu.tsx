@@ -8,6 +8,8 @@ import ServicesIcon from '@/layout/Menu/icons/services.svg';
 import {TopLevelCategory} from '@/interface/page.interface';
 import styles from '@/Layout/Menu/Menu.module.css';
 import cn from 'classnames';
+import Link from 'next/link';
+import {useRouter} from 'next/router';
 
 const firstLevelMenu: FirstLevelMenuItem[] = [
     {route: 'courses', name: 'Курсы', icon: <EducationIcon/>, id: TopLevelCategory.Courses},
@@ -18,6 +20,7 @@ const firstLevelMenu: FirstLevelMenuItem[] = [
 export const Menu = (): JSX.Element => {
 
     const {menu, setMenu, firstCategory} = useContext(AppContext);
+    const router = useRouter();
 
     // функции для каждого уровня меню
     const buildFirstLevelMenu = () => {
@@ -25,14 +28,14 @@ export const Menu = (): JSX.Element => {
             <>
                 {firstLevelMenu.map(m => (
                     <div key={m.route}>
-                        <a href={`/${m.route}`}>
+                        <Link href={`/${m.route}`}>
                             <div className={cn(styles.firstLevel, {
                                 [styles.firstLevelActive]: m.id == firstCategory
                             })}>
                                 {m.icon}
                                 <span>{m.name}</span>
                             </div>
-                        </a>
+                        </Link>
                         {m.id == firstCategory && buildSecondLevelMenu(m)}
                     </div>
                 ))}
@@ -43,33 +46,50 @@ export const Menu = (): JSX.Element => {
     const buildSecondLevelMenu = (menuItem: FirstLevelMenuItem) => {
         return (
             <div className={styles.secondBlock}>
-                {menu.map(m => (
-                    <div key={m._id.secondCategory}>
-                        <div className={styles.secondLevel}>
-                            {m._id.secondCategory}
+                {menu.map(m => {
+                    // Вытаскиваем путь из роута, и запрещаем закрывать раздел в кторомом мы находимся
+                    if (m.pages.map(p => p.alias).includes(router.asPath.split('/')[2])) {
+                        m.isOpened = true;
+                    }
+                    return (
+                        <div key={m._id.secondCategory}>
+                            <div className={styles.secondLevel}
+                                 onClick={() => openSecondLevelMenu(m._id.secondCategory)}>
+                                {m._id.secondCategory}
+                            </div>
+                            <div className={cn(styles.secondCategoryBlock, {
+                                [styles.secondCategoryBlockIsOpened]: m.isOpened
+                            })}>
+                                {buildThirdLevelMenu(m.pages, menuItem.route)}
+                            </div>
                         </div>
-                        <div className={cn(styles.secondCategoryBlock, {
-                            [styles.secondCategoryBlockIsOpened]: m.isOpened
-                        })}>
-                            {buildThirdLevelMenu(m.pages, menuItem.route)}
-                        </div>
-                    </div>
-                ))}
+                    );
+                })}
             </div>
         );
     };
- 
+
     const buildThirdLevelMenu = (pages: MenuSubItem[], route: string) => {
         return (
             pages.map(p => (
-                <a href={`/${route}/${p.alias}`} className={cn(styles.thirdLevel, {
-                    [styles.thirdLevelActive]: false
+                <Link href={`/${route}/${p.alias}`} className={cn(styles.thirdLevel, {
+                    [styles.thirdLevelActive]: `/${route}/${p.alias}` == router.asPath
                 })}>
                     {p.category}
-                </a>
+                </Link>
             ))
         );
     };
+
+    const openSecondLevelMenu = (secondCategory: string) => {
+        setMenu && setMenu(menu.map(m => {
+            if (m._id.secondCategory == secondCategory) {
+                m.isOpened = !m.isOpened;
+            }
+            return m;
+        }));
+    };
+
 
     return (
         <div className={styles.menu}>

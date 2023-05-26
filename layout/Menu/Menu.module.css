@@ -26,6 +26,8 @@
 .secondLevel {
     margin-bottom: 10px;
 
+    cursor: pointer;
+
     text-transform: uppercase;
 
     color: var(--gray-dark);
@@ -43,7 +45,13 @@
     border-left: 1px solid #DFDFDF;
 }
 
+.secondCategoryBlock {
+    display: none;
+}
+
 .secondCategoryBlockIsOpened:last-child {
+    display: block;
+
     margin-bottom: 20px;
 }
 
