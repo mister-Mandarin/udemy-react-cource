@@ -9,20 +9,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e63a6f14-d163-4faf-9632-51879e78ec45" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/context/app.context.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/layout/Menu/Menu.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/layout/Menu/Menu.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/layout/Menu/icons/book.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/layout/Menu/icons/education.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/layout/Menu/icons/goods.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/layout/Menu/icons/services.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface/menu.interface.ts" beforeDir="false" afterPath="$PROJECT_DIR$/interface/menu.interface.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface/page.interface.ts" beforeDir="false" afterPath="$PROJECT_DIR$/interface/page.interface.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/layout/Layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/layout/Layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/layout/Sidebar/Sidebar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/layout/Sidebar/Sidebar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/globals.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +33,31 @@
     &quot;state&quot;: &quot;OPEN&quot;
   }
 }</component>
+  <component name="GitToolBoxStore">
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1685085817" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="new-main" />
+                    <option name="lastUsedInstant" value="1685085816" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
+  </component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
