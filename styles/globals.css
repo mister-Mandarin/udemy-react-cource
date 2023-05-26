@@ -79,7 +79,8 @@ button::-moz-focus-inner {
 a,
 a:visited,
 a:hover {
-    text-decoration: none;
+    cursor: pointer; /* Установка курсора указателя на ссылке */
+    text-decoration: none; /* Убирает стандартное подчеркивание ссылки */
 }
 
 ul li {
@@ -105,6 +106,7 @@ h6 {
 :root {
     --black: #3B434E;
     --gray: #EBEBEB;
+    --gray-dark: #787D85;
     --white: white;
     --red: #DE0000;
     --primary: #7653FC;

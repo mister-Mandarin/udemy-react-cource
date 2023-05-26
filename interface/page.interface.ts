@@ -17,7 +17,7 @@ export interface PageModel {
     metaTitle: string;
     metaDescription: string;
     firstCategory: TopLevelCategory;
-    advantages: Advantage[];
+    // advantages: Advantage[];
     createdAt: Date;
     updatedAt: Date;
     __v: number;

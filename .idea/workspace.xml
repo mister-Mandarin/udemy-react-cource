@@ -9,12 +9,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e63a6f14-d163-4faf-9632-51879e78ec45" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/interface/page.interface.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface/product.interface.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/about.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/courses/[alias].tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/context/app.context.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layout/Menu/Menu.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layout/Menu/Menu.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layout/Menu/icons/book.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layout/Menu/icons/education.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layout/Menu/icons/goods.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layout/Menu/icons/services.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface/menu.interface.ts" beforeDir="false" afterPath="$PROJECT_DIR$/interface/menu.interface.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface/page.interface.ts" beforeDir="false" afterPath="$PROJECT_DIR$/interface/page.interface.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/Layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/layout/Layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/Sidebar/Sidebar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/layout/Sidebar/Sidebar.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/globals.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +39,19 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="5dfc96f5-70d5-404e-b680-41e26832dde6" />
+        <option name="url" value="https://github.com/mister-Mandarin/udemy-react-cource.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="JsBowerSettings">
     <bower-package value="" />
@@ -50,31 +71,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "0fbd9f30",
-    "ignore.virus.scanning.warn.message": "true",
-    "js.last.introduce.type": "CONST",
-    "last_opened_file_path": "D:/web/superapp/layout",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.standard": "true",
-    "node.js.detected.package.stylelint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.standard": "",
-    "node.js.selected.package.stylelint": "D:\\web\\superapp\\node_modules\\stylelint",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "settings.javascript.linters.eslint",
-    "ts.external.directory.path": "C:\\Users\\manda\\WebstormProjects\\udemy-react-cource\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;new-main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;js.last.introduce.type&quot;: &quot;CONST&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/web/udemy-react-cource/layout/Menu/icons&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.stylelint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.stylelint&quot;: &quot;D:\\web\\superapp\\node_modules\\stylelint&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;D:\\web\\udemy-react-cource\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="ReactDesignerToolWindowState">
     <option name="myId2Visible">
       <map>
@@ -85,11 +106,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\web\udemy-react-cource\layout\Menu\icons" />
+      <recent name="D:\web\udemy-react-cource\layout" />
       <recent name="D:\web\superapp\layout" />
       <recent name="D:\web\superapp\layout\Heared" />
       <recent name="D:\web\superapp\layout\Sidebar" />
-      <recent name="D:\web\superapp\components" />
-      <recent name="D:\web\superapp" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\web\superapp\components\Star" />
@@ -143,6 +164,14 @@
       <workItem from="1684416328216" duration="955000" />
       <workItem from="1684418009281" duration="593000" />
       <workItem from="1684646107340" duration="4169000" />
+      <workItem from="1684848333232" duration="2612000" />
+      <workItem from="1685002894734" duration="9980000" />
+      <workItem from="1685015901987" duration="256000" />
+      <workItem from="1685016175011" duration="122000" />
+      <workItem from="1685082015744" duration="828000" />
+      <workItem from="1685082907348" duration="122000" />
+      <workItem from="1685083054584" duration="331000" />
+      <workItem from="1685083407416" duration="341000" />
     </task>
     <servers />
   </component>
@@ -150,11 +179,38 @@
     <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="User">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="*" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
